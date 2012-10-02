@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#example_dlg.title}</title>
+	<script type="text/javascript" src="js/tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/youtube.js?v=1.1"></script>
+</head>
+<body>
+
+<form onsubmit="YouTubeDialog.insert();return false;" action="#">
+	<p>
+        You can add a YouTube video to this page using the video's ID.
+    </p>
+    <p>
+        The ID is <code>T8Pj5cERMIw</code> for the YouTube URL
+        <code>http://www.youtube.com/watch?v=T8Pj5cERMIw</code>
+    </p>
+	<label>YouTube ID</label>
+    <input id="youtube_id" name="youtube_id" type="text" class="text" /></p>
+	<div class="mceActionPanel">
+		<input type="button" id="insert" name="insert" value="{#insert}" onclick="YouTubeDialog.insert();" />
+		<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="YouTubeDialog.close();" />
+	</div>
+</form>
+
+</body>
+</html>
