@@ -9,5 +9,6 @@ add YouTube videos using the latest YouTube iFrame embed code available.
 Add the following code to your `/plugins` directory with TinyMCE and add the
 plugin `youtube` to your TinyMCE initalization and toolbar.
 
-@author Hatchd Digital <http://hatchd.com.au>
-@author Jimmy Hillis <jimmy@hatchd.com.au>
+Hatchd Digital <http://hatchd.com.au>
+
+Author: Jimmy Hillis <jimmy@hatchd.com.au>
