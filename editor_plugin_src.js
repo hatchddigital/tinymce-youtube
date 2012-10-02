@@ -23,12 +23,6 @@
 		 */
 		init : function(ed, url) {
 
-            // The URL is wrong because the plugin is manual... not sure what's going on here.
-            url = '/kotti_tinycme_static/tinymce-youtube/';
-
-            // This doesn't work because of Kotti traversal
-            // url = url + '/static/scripts/tinymce-youtube/';
-
 			// Register the command so that it can be invoked by using tinyMCE.activeEditor.execCommand('mceExample');
 			ed.addCommand('mceYouTube', function() {
 				ed.windowManager.open({
